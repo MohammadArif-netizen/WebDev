@@ -32,12 +32,37 @@ const myFunction = function(){
     console.log("Hello, World!");
 }
 
-console.log(typeof x);
-console.log(typeof isLoggedIn);
-console.log(typeof outsideTemp);
-console.log(typeof userEmail);
-console.log(typeof anotherId);
-console.log(typeof bigNumber);
-console.log(typeof myObj);
-console.log(typeof myFunction);
-console.log(typeof fruits);
+// console.log(typeof x);
+// console.log(typeof isLoggedIn);
+// console.log(typeof outsideTemp);
+// console.log(typeof userEmail);
+// console.log(typeof anotherId);
+// console.log(typeof bigNumber);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+// console.log(typeof fruits);
+
+
+// ****************************************** Memory **********************************************************
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+// let country = "India"
+
+// let anotherCountry = country
+// anotherCountry = "USA"
+
+// console.log(country);
+// console.log(anotherCountry);
+
+let userOne = {
+    email: "user@email.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Arif@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
