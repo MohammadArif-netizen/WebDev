@@ -35,3 +35,5 @@ console.log(fasionBrand.split('-'));
 console.log(fasionBrand.search('e'));
 console.log(fasionBrand.concat(newString3));
 console.log(fasionBrand.endsWith('m'));
+
+
